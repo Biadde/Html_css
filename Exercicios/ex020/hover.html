@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Hover</title>
+    <style>
+
+        h1 {
+            text-align: center;
+            background-color: red;
+            color: white;
+        }
+
+        body{
+            padding: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.3em;
+            background-color: rgb(210, 215, 219);
+        }  
+
+        div > p {
+            display: none;
+        }
+
+        div:hover > p {
+            display: block;
+            color: white;
+            background-color: #ff0000;
+            width: 220px;
+            padding: 5px;
+            text-align: center;
+        }
+
+        div:hover {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Hover</h1>
+    <div>
+        Passa o rato aqui
+        <p>TEXTO ESCONDIDO</p>
+    </div>
+    <p>Fim do exemplo</p>
+</body>
+</html>
