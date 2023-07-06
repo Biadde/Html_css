@@ -5,13 +5,17 @@ body {
 }
 
 nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: rgb(40, 126, 255);
-    padding: 12px;
+    padding: 5px;
     margin: -10px -8px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 nav a {
+    display: flex;
     text-decoration: none;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
@@ -28,73 +32,96 @@ nav a:hover {
 main {
     box-shadow: 3px 2px 12px 0px rgba(0, 0, 0, 0.13);
     border-radius: 10px;
-    padding: 20px;
+    padding: 30px;
     width: 900px;
+    height: 500px;
     margin: 20px auto;
     margin-bottom: 60px;
+}
+
+main p {
+    font-size: 1.05em;
 }
 
 h1 {
     text-align: center;
     font-weight: normal;
-    font-size: 2.3em;
+    font-size: 2.9em;
 }
 
 input {
     width: 880px;
-    height: 25px;
+    height: 30px;
     box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.26);
     border: transparent;
 }
 
 input#Password-confirmation {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 button#submit {
     border-radius: 5px;
     background-color: rgb(40, 126, 255);
     color: white;
-    width: 70px;
-    height: 45px;
+    width: 100px;
+    height: 60px;
     border-color: transparent;
-    font-size: 1.28em;
+    font-size: 1.6em;
     padding: 5px;
+    position: absolute;
+    right: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 10px;
+    margin-right: 3px;
 }
 
 button#submit:hover {
     border-radius: 5px;
     background-color: rgb(25, 90, 189);
     color: rgb(228, 228, 228);
-    width: 70px;
-    height: 45px;
+    width: 100px;
+    height: 60px;
     border-color: transparent;
-    font-size: 1.28em;
+    font-size: 1.6em;
     padding: 5px;
+    position: absolute;
+    right: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 10px;
+    margin-right: 3px;
 }
 
 button#clear {
     border-radius: 5px;
     background-color: rgb(252, 41, 52);
     color: white;
-    width: 90px;
-    height: 45px;
+    width: 100px;
+    height: 60px;
     border-color: transparent;
-    font-size: 1.28em;
+    font-size: 1.6em;
     padding: 8px;
-    margin: 0px 5px 5px 8px;
+    margin-bottom: 10px;
+    margin-left: 3px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 button#clear:hover {
     border-radius: 5px;
     background-color: rgb(190, 19, 28);
     color: rgb(228, 228, 228);
-    width: 90px;
-    height: 45px;
+    width: 100px;
+    height: 60px;
     border-color: transparent;
-    font-size: 1.28em;
+    font-size: 1.6em;
     padding: 8px;
-    margin: 0px 5px 5px 8px;
+    margin-bottom: 10px;
+    margin-left: 3px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 footer{
